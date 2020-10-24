@@ -1,5 +1,5 @@
 .at : Hamcrest assertThat
-  NON_VOID [org.hamcrest.MatcherAssert] → MatcherAssert.assertThat($expr$, $expected$); [USE_STATIC_IMPORTS]
+  NON_VOID [org.hamcrest.MatcherAssert] → org.hamcrest.MatcherAssert.assertThat($expr$, $expected$); [USE_STATIC_IMPORTS]
 
 .ae : JUnit5 assertEquals
   NON_VOID [org.junit.jupiter.api.Assertions] → org.junit.jupiter.api.Assertions.assertEquals($END$, $EXPR$); [USE_STATIC_IMPORTS]
